@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+import { render } from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
@@ -14,8 +15,8 @@ function App() {
         <div className="App">
           <Navbar />
           <Routes>
-            <Route path="/" component={<Home/>} />
-            <Route path="/detail" component={<Detail/>} />
+            <Route path="/" element={<Home/>} />
+            <Route path="detail" element={<Detail/>} />
           </Routes>
           {/* <Home/> */}
           {/* <Detail/> */}

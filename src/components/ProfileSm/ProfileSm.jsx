@@ -22,7 +22,7 @@ const ProfileSm = (props) => {
         <ListGroupItem>Vestibulum at eros</ListGroupItem>
       </ListGroup> */}
       <Card.Body className="card-button-section">
-        <Card.Link href="#">Learn More</Card.Link>
+        <Card.Link href={props.link}>Learn More</Card.Link>
         {/* <Card.Link href="#">Another Link</Card.Link> */}
       </Card.Body>
     </Card>
