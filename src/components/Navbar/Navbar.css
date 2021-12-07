@@ -1,0 +1,40 @@
+
+/* navbar background color */
+.navbar {
+    background-color:rgb(0, 0, 0);
+    margin-bottom: 5%;
+    color: white;
+    height: 50px;
+}
+/* heading for navbar */
+.nav-item {
+    color: white;
+    margin: 10px;
+}
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+/* links in navbar */
+.nav-link {
+    color: white;
+}
+/* Toggler color */
+.navbar-toggler-icon {
+    background-color: rgb(255, 255, 255);
+}
+
+/* Site title - White and on hover inc size and fade */
+#site-title {
+    font-size: 15pt;
+    color:rgb(255, 255, 255)
+}
+#site-title:hover {
+    font-size: 15.5pt;
+    color:rgb(199, 199, 199)
+}
+/* below has been commented out dont think I will need*/
+
+/* ul {
+    list-style: none;
+} */
