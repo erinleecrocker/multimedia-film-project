@@ -1,5 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -8,14 +9,14 @@ const Navbar = () => {
       <span id="nav-background">
   
      <nav className="navbar navbar-expand-md nav-link">
-      <a
+      <Link
         className="nav-link"
         to="/"
         href="/"
         id = 'site-title'
       >
         Multimedia Final
-      </a>
+      </Link>
       <button
         className="navbar-light navbar-toggler"
         type="button"
@@ -30,9 +31,9 @@ const Navbar = () => {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
-            {/* <Link className="nav-link" to="/about"> */}
+            <Link className="nav-link" to="/detail">
               Ponsavon Silapath
-            {/* </Link> */}
+            </Link>
           </li>
           <li className="nav-item">
             {/* <Link className="nav-link" to="/troung-van"> */}

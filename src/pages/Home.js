@@ -10,7 +10,7 @@ const Home = () => (
         <div className="col-2 ml-5 mr-auto">
     <ProfileSm
         name="Ponsovan"
-        // image="../../images/ponsovan_light.jpg"
+        image="https://user-images.githubusercontent.com/69767328/144964237-cc7d12e0-4d73-4f34-aba2-90474c6487e9.jpg"
         />
         </div>
         <div className="col-2 mr-auto">

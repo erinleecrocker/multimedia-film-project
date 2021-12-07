@@ -8,7 +8,7 @@ import { propTypes } from "react-bootstrap/esm/Image";
 const ProfileSm = (props) => {
   return (
     <Card className="profile-card">
-      <Card.Img className="card-image" variant="top" src="../../images/ponsovan_light.jpg"/>
+      <Card.Img className="card-image" variant="top" src={props.image}/>
       <Card.Body>
         <Card.Title>Name {props.name} </Card.Title>
         <Card.Text>
