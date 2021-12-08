@@ -16,7 +16,7 @@ function App() {
           <Navbar />
           <Routes>
             <Route path="multimedia-film-project/" element={<Home/>} />
-            <Route path="/ponsavon" element={<Ponsavon/>} />
+            <Route path="multimedia-film-project/ponsavon" element={<Ponsavon/>} />
           </Routes>
           {/* <Home/> */}
           {/* <Detail/> */}
