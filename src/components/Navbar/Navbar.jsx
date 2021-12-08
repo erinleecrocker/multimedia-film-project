@@ -11,8 +11,8 @@ const Navbar = () => {
      <nav className="navbar navbar-expand-md nav-link">
       <Link
         className="nav-link"
-        to="/"
-        href="/"
+        to="multimedia-film-project/"
+        href="multimedia-film-project/"
         id = 'site-title'
       >
         Multimedia Final
