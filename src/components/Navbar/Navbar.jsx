@@ -31,12 +31,12 @@ const Navbar = () => {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
-            <Link className="nav-link" to="/ponsavon">
+            <Link className="nav-link" to="multimedia-film-project/ponsavon">
               Ponsavon Silapath
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/troung">
+            <Link className="nav-link" to="multimedia-film-project/troung">
               Truong Van
             </Link>
           </li>
