@@ -1,10 +1,10 @@
 
 /* navbar background color */
 .navbar {
-    background-color:rgb(0, 0, 0);
+    background-color:rgba(0, 0, 0, 0.699);
     margin-bottom: 2%;
     color: white;
-    height: 50px;
+    height: 75px;
 }
 /* heading for navbar */
 .nav-item {
@@ -18,6 +18,8 @@
 /* links in navbar */
 .nav-link {
     color: white;
+    font-family: 'Staatliches', cursive;
+    font-size: 20px;
 }
 /* Toggler color */
 .navbar-toggler-icon {
@@ -26,12 +28,14 @@
 
 /* Site title - White and on hover inc size and fade */
 #site-title {
-    font-size: 15pt;
+    font-size: 30pt;
     color:rgb(255, 255, 255)
+
 }
 #site-title:hover {
-    font-size: 15.5pt;
-    color:rgb(199, 199, 199)
+    font-size: 30.3pt;
+    color:rgb(26, 102, 241);
+    
 }
 /* below has been commented out dont think I will need*/
 

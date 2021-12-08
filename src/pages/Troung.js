@@ -3,12 +3,14 @@ import ProfileLg from '../components/ProfileLg/ProfileLg';
 import { Container } from "react-bootstrap";
 
 
-const Detail = () => (
+const Truong = () => (
     <>
         <Container>
+        <div className="row">
         <ProfileLg/>
+        </div>
         </Container>
     </>
 );
 
-export default Detail;
+export default Troung;

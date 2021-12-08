@@ -15,7 +15,7 @@ const Navbar = () => {
         href="multimedia-film-project/"
         id = 'site-title'
       >
-        Multimedia Final
+        Multi-media Final
       </Link>
       <button
         className="navbar-light navbar-toggler"
@@ -31,20 +31,20 @@ const Navbar = () => {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
-            <Link className="nav-link" to="/detail">
+            <Link className="nav-link" to="/ponsavon">
               Ponsavon Silapath
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/troung-van">
+            <Link className="nav-link" to="/troung">
               Truong Van
             </Link>
           </li>
-          <li className="nav-item">
-          {/* <Link className="nav-link" to="/more"> */}
+          {/* <li className="nav-item">
+          <Link className="nav-link" to="/more">
               More
-            {/* </Link> */}
-          </li>
+            </Link>
+          </li> */}
         </ul>
       </div>
     </nav>

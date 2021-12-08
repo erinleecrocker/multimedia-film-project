@@ -1,5 +1,34 @@
 .profile-card {
     width: 560px;
-    height: auto;
+    height: 600px;
+    background-color: black;
+    color: white;
+    margin-top: 10%;
+    border: 2px;
+    border-color: black;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: box-shadow 0.3s ease-in-out;
+    
 }
 
+.profile-card:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  }
+
+#card-title {
+    color: rgb(196, 13, 13);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Staatliches', cursive;
+    font-size: 30pt;
+}
+#card-title:hover{
+    color:rgb(230, 95, 95);
+   
+}
+
+#card-text {
+    padding-left:5px;
+    padding-right:5px;
+}

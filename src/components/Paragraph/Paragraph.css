@@ -1,0 +1,27 @@
+.info-card{
+    padding: 5%;
+    background-color: rgba(0, 0, 0, 0.76);
+    color:white;
+    width: 94%;
+    margin-top: 5%;
+    margin-bottom: 5%
+}
+
+.info-card:hover{
+    
+    background:black;
+    
+}
+
+.info-card-title{
+    font-family: 'Staatliches', cursive;
+    font-size: 30pt;
+
+    
+}
+.info-card-byline{
+    margin-bottom: 5%;
+}
+#header-background{
+    background: none !important;
+}
