@@ -3,7 +3,7 @@ import ProfileLg from '../components/ProfileLg/ProfileLg';
 import { Container } from "react-bootstrap";
 
 
-const Truong = () => (
+const Troung = () => (
     <>
         <Container>
         <div className="row">
