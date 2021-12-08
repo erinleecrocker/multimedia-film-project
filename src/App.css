@@ -1,6 +1,13 @@
-Body {
+/* Body {
     background:url("./images/background_image.jpg") no-repeat center fixed;
-}
+} */
+body { 
+    background: url("./images/background_image.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 
 App {
     content: center;
