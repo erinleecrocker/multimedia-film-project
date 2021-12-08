@@ -36,7 +36,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="multimedia-film-project/troung">
+            <Link className="nav-link" to="/troung">
               Truong Van
             </Link>
           </li>

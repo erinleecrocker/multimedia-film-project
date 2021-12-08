@@ -1,5 +1,5 @@
 import React from "react";
-import ProfileLg from '../components/ProfileLg/ProfileLg';
+import ProfileLg2 from '../components/ProfileLg2/ProfileLg2';
 import { Container } from "react-bootstrap";
 
 
@@ -7,8 +7,7 @@ const Troung = () => (
     <>
         <Container>
         <div className="row">
-        <ProfileLg
-        videolink= "https://drive.google.com/file/d/1gv6e4Hu4wAdVang9-vWjf3gFO-sdusXW/preview"
+        <ProfileLg2
         />
         </div>
         </Container>

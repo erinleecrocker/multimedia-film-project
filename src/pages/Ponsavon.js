@@ -8,9 +8,7 @@ const Ponsavon = () => (
         <Container>
         <div className="row">
     
-        <ProfileLg
-        videolink= "https://drive.google.com/file/d/16bDzLxs3-qypmMd4Ad3Xt-_XS9DHZ_T4/preview"
-        />
+        <ProfileLg/>
         </div>
         </Container>
     </>

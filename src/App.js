@@ -17,7 +17,7 @@ function App() {
           <Routes>
             <Route path="multimedia-film-project/" element={<Home/>} />
             <Route path="/ponsavon" element={<Ponsavon/>} />
-            <Route path="/troung" element={<Ponsavon/>} />
+            <Route path="/troung" element={<Troung/>} />
           </Routes>
           {/* <Home/> */}
           {/* <Detail/> */}

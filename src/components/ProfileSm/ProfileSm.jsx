@@ -2,9 +2,7 @@ import React from "react";
 import "./ProfileSm.css";
 import Card from "react-bootstrap/Card";
 import Carousel from "react-bootstrap/Carousel";
-import ListGroup from "react-bootstrap/ListGroup";
-import ListGroupItem from "react-bootstrap/ListGroupItem";
-import { propTypes } from "react-bootstrap/esm/Image";
+import { Link } from "react-router-dom";
 
 const ProfileSm = (props) => {
   return (
@@ -38,7 +36,10 @@ const ProfileSm = (props) => {
         <ListGroupItem>Vestibulum at eros</ListGroupItem>
       </ListGroup> */}
       <Card.Body className="card-button-section">
-        <Card.Link href={props.link}>Watch Interview</Card.Link>
+        <Link className="card-link" to={props.link}>
+              Watch Interview
+            </Link>
+        {/* <Card.Link href={props.link}>Watch Interview</Card.Link> */}
         {/* <Card.Link href="#">Another Link</Card.Link> */}
       </Card.Body>
     </Card>
