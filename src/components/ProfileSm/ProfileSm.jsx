@@ -14,14 +14,14 @@ const ProfileSm = (props) => {
       <Carousel fade pauseOnHover={true}>
         <Carousel.Item>
           <img
-            className="d-flex w-auto"
+            className="d-block w-auto"
             src={props.image}
             alt="First slide"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-flex w-auto"
+            className="d-block w-auto"
             src={props.image2}
             alt="First slide"
           />
